@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=problem77Page134
+comment0.text=\r\n\ problem77\ Page134\ \ Weird\ String\ Function\r\n\r\n\ @author\ Tai-Yu\ Chen\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=domain
+comment1.target=problem77Page134(java.lang.String[])
+comment1.text=\r\n\ \ domain\ is\ an\ array\ with\ three\ elements\r\n
+comment2.params=y
+comment2.target=java.lang.String\ weirdStringFunction(java.lang.String[])
+comment2.text=\r\n\ \ y\ is\ an\ array\ of\ length\ 3\r\n\ \ returns\ a\ String\ according\ to\ the\ description\ of\ problem\ 77-81\ on\ page\ 134\r\n
+numComments=3

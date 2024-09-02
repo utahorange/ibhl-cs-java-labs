@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=RunRunRunAroundNumbers
+comment0.text=\r\n\ RunRunRunAroundNumbers.\r\n\r\n
+comment1.params=num
+comment1.target=boolean\ isRunRoundNumber(int)
+comment2.params=seqNum
+comment2.target=int\ getNextRunAroundNumber(int)
+numComments=3
