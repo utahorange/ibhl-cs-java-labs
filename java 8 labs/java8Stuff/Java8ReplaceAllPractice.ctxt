@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Java8ReplaceAllPractice
+comment0.text=\r\n\ \r\n\ \ \ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \r\n
+comment1.params=nums
+comment1.target=java.util.List\ doubleIt(java.util.List)
+comment1.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ double\ (times\ 2)\ every\ value\ in\ nums\r\n\r\n\ \ \ doubleIt([5])\ returns\ [10]\r\n
+comment2.params=nums
+comment2.target=java.util.List\ squareOnePlaceValue(java.util.List)
+comment2.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ replace\ every\ value\ in\ the\ parameter\ nums\ with\ the\ onesPlaceValue^2\ \r\n\ \ \ \r\n\ \ \ squareOnePlaceValue([17])\ returns\ [49]\r\n
+comment3.params=nums\ that
+comment3.target=java.util.List\ subtract_that(java.util.List,\ int)
+comment3.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ subtract\ the\ parameter\ that\ from\ all\ values\ in\ the\ parameter\ nums\ \r\n\ \ \ \r\n\ \ subtract_that([5],\ 2)\ returns\ [3]\r\n
+comment4.params=words\ phrase
+comment4.target=java.util.List\ surroundWordWith_phrase(java.util.List,\ java.lang.String)
+comment4.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ \ \ each\ String\ in\ words\ modified\ by\ adding\ the\ parameter\ phrase\ as\ both\ a\ prefix\ and\ postfix\r\n\r\n\ \ \ surroundWordWith_phrase(["foo],\ "*\#")\ returns["*\#foo*\#"]\r\n
+comment5.params=words\ phrase
+comment5.target=java.util.List\ stickWordsInMiddleOfPhrase(java.util.List,\ java.lang.String)
+comment5.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ \ \ each\ String\ in\ words\ modified\ by\:\r\n\ \ \ \ \ \ \ \ \ \ adding\ first\ 3\ elements\ of\ phrase\ as\ a\ prefix\r\n\ \ \ \ \ \ \ \ \ \ adding\ the\ remaining\ letter\ (after\ the\ first\ 3)\ as\ a\ postfix\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ You\ may\ assume\ phrase.length()\ >\=\ 3\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ \ \ stickWordsInMiddleOfPhrase(["foo"],\ "12345")\ \ returns\ ["123foo45"]\r\n
+comment6.params=words\ phrase
+comment6.target=java.util.List\ removePhrase(java.util.List,\ java.lang.String)
+comment6.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ \ \ \ \ \ return\ a\ list\ where\ all\ occurrences\ of\ phrase\ has\ been\ removed\r\n\r\n\ \ \ removePhrase(["ax",\ "bb",\ "xcx"],\ "x")\ returns\ ["a",\ "bb",\ "c"]\r\n\ \ \ removePhrase(["mississippi",\ "passes",\ "stop"],\ "ss")\ returns\ ["miiippi",\ "paes",\ "stop"]\r\n\ \ \ removePhrase(["please"],\ "please")\ returns\ []\r\n
+numComments=7

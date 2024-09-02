@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ModernJava8ReplaceAllPracticeTest
+comment0.text=\r\n\ The\ test\ class\ Java8ReplaceAllPracticeTest.\r\n\r\n\ @author\ \ Coglianese\r\n\ @version\ 2022\r\n
+comment1.params=
+comment1.target=void\ testJava8ReplaceAllPractice01()
+comment1.text=\r\n\ The\ test\ class\ studentTest.\r\n\r\n\ @author\ \ Don\ Allen\r\n\ @updater\ Coglianese\r\n\ @version\ 2022\ Java\ 8\ mapping\r\n
+comment2.params=
+comment2.target=ModernJava8ReplaceAllPracticeTest()
+comment2.text=\r\n\ Default\ constructor\ for\ test\ class\ Java8ReplaceAllPracticeTest\r\n
+comment3.params=
+comment3.target=void\ setUp()
+comment3.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ tearDown()
+comment4.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+numComments=5

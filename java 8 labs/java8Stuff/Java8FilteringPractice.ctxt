@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Java8FilteringPractice
+comment0.text=\r\n\ @author\ \ add\ your\ name\r\n
+comment1.params=nums
+comment1.target=java.util.List\ noNeg(java.util.List)
+comment1.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ \ removes\ all\ negative\ numbers\ (<\ 0)\ from\ the\ parameter\ nums\r\n\r\n\ \ \ \ noNeg([10,\ -11,\ 20])\ returns\ [10,\ 20]\r\n
+comment2.params=nums\ digit
+comment2.target=java.util.List\ noMatchDigit(java.util.List,\ int)
+comment2.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ Given\ a\ list\ of\ non-negative\ integers,\ \r\n\ \ \ \ \ return\ a\ list\ of\ those\ numbers\r\n\ \ \ \ \ omitting\ those\ whose\ ones\ place\ value\ equals\ the\ parameter\ digit.\r\n\ \ \ you\ may\ assume\ 0\ <\=\ digit\ <\=\ 9\r\n\r\n\ \ \ noMatchDigit([10,\ 13,\ 57],\ 3)\ returns[10,\ 57]\r\n
+comment3.params=words\ avoidLength
+comment3.target=java.util.List\ playWithStringLengths(java.util.List,\ int)
+comment3.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ Given\ a\ list\ of\ strings,\r\n\ \ \ \ \ return\ a\ list\ of\ the\ strings,\r\n\ \ \ \ \ omitting\ any\ string\ length\ equal\ to\ the\ parameter\ avoidLength,\ avoidLength\ -\ 1\ or\ avoidLength\ +\ 1.\r\n\r\n\ \ \ playWithStringLengths(["123",\ "1234",\ "12345",\ "123456"],\ 4)\ returns\ ["123456"]\r\n
+comment4.params=nums\ prod
+comment4.target=java.util.List\ noEven(java.util.List,\ int)
+comment4.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ Given\ a\ list\ of\ integers,\r\n\ \ \ \ \ return\ a\ list\ of\ those\ numbers\ multiplied\ by\ the\ parameter\ prod,\r\n\ \ \ \ \ omitting\ any\ of\ the\ resulting\ numbers\ that\ are\ even.\r\n\ \ \ \ \ \r\n\ \ \ \ \ This\ method\ may/should\ require\ using\ the\ replaceAll\ method\ followed\ by\ removeIf\r\n\r\n\ \ \ noEven([10,\ 13\ ,57],\ 3)\ return\ [39,\ 171]\r\n
+comment5.params=words\ it
+comment5.target=java.util.List\ playWithStrings(java.util.List,\ java.lang.String)
+comment5.text=\r\n\ \ \ Remember,\ the\ objective\ of\ this\ lab\ is\ to\ use\ the\ features\ provided\ in\ Java\ 8\r\n\ \ \ \ \ \r\n\ \ \ Given\ a\ list\ of\ strings,\r\n\ \ \ \ \ return\ a\ list\ where\ each\ string\ has\ a\ "th"\ added\ to\ its\ end,\ \r\n\ \ \ \ \ omitting\ any\ resulting\ strings\ that\ contain\ the\ parameter\ it\ as\ a\ substring\ anywhere.\ \r\n\ \ \ \ \ \r\n\ \ \ \ \ This\ method\ may/should\ require\ using\ the\ replaceAll\ method\ followed\ by\ removeIf\r\n\r\n\ \ \ playWithStrings(["The",\ "word",\ "is",\ "Computer"],\ "r")\ returns\ ["Theth",\ "isth"]\r\n\ \ \ playWithStrings(["wi",\ "bandwid",\ "zeni"],\ "ith")\ returns\ ["bandwidth"]\r\n
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GQ_Decimal_Converter
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GorgoneaQuarta\ here.\r\n\ \r\n\ @author\ Tai-Yu\ Chen\r\n\ \r\n\ This\ will\ convert\ GQ\ to\ decimal\ and\ decimal\ to\ GQ.\r\n
+comment1.params=str
+comment1.target=int\ toDecimal(java.lang.String)
+comment2.params=num
+comment2.target=int\ closestTo3(int)
+comment3.params=i
+comment3.target=java.lang.String\ change(java.lang.String)
+comment4.params=num
+comment4.target=java.lang.String\ toGQ(int)
+numComments=5

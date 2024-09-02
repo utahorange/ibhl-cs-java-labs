@@ -1,0 +1,77 @@
+#BlueJ class context
+comment0.target=DirectedGraph
+comment0.text=\n\ \ \ \ \ all\ vertices\ are\ numbered\ with\ Strings\ of\ length\ 1\n\ \ \ \ \ \n\ \ \ \ \ Edges\ are\ of\ the\ form\ (a,\ b),\ a\ and\ b\ are\ String\ with\ length\ 1\n\ \ \ \ \ \n\ \ \ \ \ Edges\ are\ assumed\ to\ be\ directed,\ which\ implies\ (1,3)\ is\ different\ from\ Edge\ (3,1)\n\ @\ author\ Tai-Yu\ Chen\n\n
+comment1.params=vertices
+comment1.target=DirectedGraph(java.util.Set)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ DirectedGraph\n
+comment10.params=
+comment10.target=boolean\ hasLoop()
+comment10.text=\n\ \ \ see\ top\ of\ page\ 379\ for\ defintion\ of\ loop\:\n\ \ \ \n\ \ \ An\ edge\ incident\ on\ a\ single\ vertex\ is\ called\ a\ loop.\n
+comment11.params=
+comment11.target=boolean\ hasParallelEdges()
+comment11.text=\n\ \ \ see\ top\ of\ page\ 379\ for\ defintion\ of\ loop\:\n\ \ \ \n\ \ \ Two\ Edges\ associated\ with\ the\ same\ vertices\ are\ said\ to\ be\ parallel\ edges\n
+comment12.params=
+comment12.target=java.util.List\ getAllIsolatedVertices()
+comment12.text=\n\ \ \ see\ top\ of\ page\ 379\ for\ defintion\ of\ loop\:\n\ \ \ \n\ \ \ A\ vertex\ not\ incident\ on\ any\ edge\ is\ called\ an\ isolated\ vertex\n\ \ \ A\ vertex\ incident\ on\ itself\ (i.e.,\ a\ loop)\ is\ NOT\ isolated\n\ \ \ \n\ \ \ returns\ a\ List\ of\ all\ Isolted\ Vertices.\ \ If\ there\ are\ not\ Isolated\ vertices,\ return\ an\ empty\ List\n\ \ \ \n\ \ \ an\ isolated\ vertex\ is\ one\ that\ does\ not\ contain\ any\ edges\ besides\ direct\ loops\n
+comment13.params=v
+comment13.target=int\ getVertexDegree(java.lang.String)
+comment13.text=\n\ \ precondition\:\ \ \ myVertices.contains(v)\ \=\=\ true\n\ \ postcondition\:\ \ no\ side\ effects\n\ \ \ \ returns\ the\ number\ of\ edges\ incident\ on\ v\n\ \ \ \ \n\ \ note\ the\ sentence\ that\ states\:\n\ \ \ \ \ \ (By\ definition,\ each\ loop\ on\ v\ contributes\ 2\ to\ the\ degree\ of\ v)\n\ \ \ \ \n\ \ \ \ see\ page\ 392\n
+comment14.params=
+comment14.target=boolean\ isEvenGraph()
+comment14.text=\n\ \ \ \ \ A\ graph\ is\ said\ to\ be\ even\ if\ every\ vertex\ has\ even\ degree\n\ \ \ \ \ \n\ \ \ \ \ returns\ true\ every\ vertex\ has\ even\ degree\n\ \ \ \ \ \ \ \ \ \ \ \ \ false\ otherwise\n
+comment15.params=g
+comment15.target=DirectedGraph\ union(DirectedGraph)
+comment15.text=\n\ \ \ returns\ the\ union\ DirectGraoh\ this\ .\ and\ DirectedGraph\ g\n\ \ \ return\ a\ DirectedGraph\ with\:\n\ \ \ \ \ \ \ \ myVertices\ \=\ union\ of\ this.myVertices\ and\ g.myVertices\n\ \ \ \ \ \ \ \ myEdges\ \=\ union\ of\ this.myEdges\ and\ g.myEdges\n
+comment16.params=g
+comment16.target=DirectedGraph\ intersection(DirectedGraph)
+comment16.text=\n\ \ \ returns\ the\ intersection\ DirectGraoh\ this\ .\ and\ DirectedGraph\ g\n\ \ \ return\ a\ DirectedGraph\ with\:\n\ \ \ \ \ \ \ \ myVertices\ \=\ intersection\ of\ this.myVertices\ and\ g.myVertices\n\ \ \ \ \ \ \ \ myEdges\ \=\ intersection\ of\ this.myEdges\ and\ g.myEdges\n
+comment17.params=v1\ v2
+comment17.target=boolean\ isBipartite(java.util.Set,\ java.util.Set)
+comment17.text=\n\ \ \ \ use\ definition\ of\ Bipartite\ on\ page\ 383\n\ \ \ \ \ \ \ intersection\ is\ empty\n\ \ \ \ \ \ \ union\ \=\=\ this\n\ \ \ \ Each\ edge\ in\ this.myEdges\ has\ one\ vertex\ in\ v1\ and\ one\ vertex\ in\ v2\ \ \ \n\ \ \ \ \n\ \ \ \ returns\ true\ if\ v1\ and\ v2\ form\ a\ Biparitite\ of\ this\ Directed\ Graph\n\ \ \ \ \n\ \ \ \ returns\ false\ otherwise\n
+comment18.params=v
+comment18.target=java.util.Set\ AdjacentEdges(java.lang.String)
+comment19.params=v\ w
+comment19.target=boolean\ hasPath(java.lang.String,\ java.lang.String)
+comment19.text=\n\ \ \ see\ page\ 388\n\ \ \ \n\ \ \ precondition\:\ \ myVertices.contains(v)\ \=\=\ true\ \ &&\ myVertices.contains(w)\ \=\=\ true\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ v\ and\ w\ may\ be\ the\ same\ vertex,\ i.e.\ v.equals(w)\ may\ be\ true\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ A\ path\ must\ contain\ at\ least\ two\ different\ vertices.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ This\ imples\ that\ a\ single\ isolated\ vertex\ is\ not\ a\ path\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ a\ loop\ by\ itself\ is\ not\ a\ path\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ returns\ true\ iff\ there\ exist\ a\ path\ from\ v\ to\ w\ of\ any\ length\ and\ the\ path\ contains\ two\ different\ vertices.\n\ \ \ \n\ \ \ \ \ \ \ v\ and\ w\n
+comment2.params=e
+comment2.target=void\ addEdge(Edge)
+comment2.text=\n\ precondition\n\ \ \ myVertices.contains(e.getA())\ \=\=\ true\n\ \ \ &&\ myVertices.contains(e.getB())\ \=\=\ true\n\ \ \ myEdges.contains(e)\ \=\=\ false\n\ postcondtion\:\ \ myEdges.contains(e)\ \=\=\ true\n
+comment20.params=visitedNodes\ v\ w
+comment20.target=boolean\ checkPath(java.util.List,\ java.lang.String,\ java.lang.String)
+comment21.params=v
+comment21.target=java.util.Set\ adjacentNodes(java.lang.String)
+comment22.params=
+comment22.target=boolean\ isConnectedGraph()
+comment22.text=\n\ \ \ see\ page\ 388\ for\ definition\n\ \ \ \n\ \ \ A\ graph\ is\ connected\ if\ given\ any\ two\ vertices\ v\ and\ w,\ there\ exist\ a\ path\ from\ v\ to\ w\n
+comment23.params=p
+comment23.target=boolean\ isSimplePath(java.util.List)
+comment23.text=\n\ \ \ \ See\ page\ 391\n\ \ \ \ \n\ \ \ \ precondition\:\n\ \ \ \ \ \ \ myVertices.contains(p.get(k))\ \=\=\ true\ for\ all\ k,\ 0\ <\=\ k\ <\ p.size()\n\ \ \ \ \ \ \ p.get(k).length()\ \=\=\ 1\ for\ all\ k,\ 0\ <\=\ k\ <\ p.size()\n\ \ \ \ postcondition\:\n\ \ \ \ \ \ \ myVertices\ &\ myEdges\ are\ not\ altered\n\ \ \ \ \ \ \ \n\ \ \ \ returns\ true\ iff\ there\ is\ a\ path\ from\ p.get(0)\ to\ p.get(p.size()-1)\ with\ no\ repeated\ Vertices\n\ \ \ \ \ \ \ \ \ \ \ \ yes,\ you\ need\ to\ make\ sure\ myEdges\ contains\ the\ Edges\ required\ in\ p\n
+comment24.params=c
+comment24.target=boolean\ isCycle(java.util.List)
+comment24.text=\n\ \ \ \ See\ page\ 391\n\ \ \ \ \n\ \ \ \ precondition\:\n\ \ \ \ \ \ \ c.get(0).equals(c.get(c.size()-1))\ \=\=\ true\n\ \ \ \ \ \ \ myVertices.contains(c.get(k))\ \=\=\ true\ for\ all\ k,\ 0\ <\=\ k\ <\ c.size()\n\ \ \ \ \ \ \ c.get(k).length()\ \=\=\ 1\ for\ all\ k,\ 0\ <\=\ k\ <\ c.size()\n\ \ \ \ postcondition\:\n\ \ \ \ \ \ \ myVertices\ &\ myEdges\ are\ not\ altered\n\n\ \ \ \ returns\ true\ iff\ there\ is\ a\ path\ of\ nonzerolength\ from\ c.get(0)\ to\ c.get(c.size()-1)\ with\ no\ repeated\ edges\n\ \ \ \ \ \ \ \ \ \ \ \ yes,\ you\ need\ to\ make\ sure\ myEdges\ contains\ the\ Edges\ required\ in\ c\n
+comment25.params=sc
+comment25.target=boolean\ isSimpleCycle(java.util.List)
+comment25.text=\n\ \ \ \ See\ page\ 391\n\ \ \ \ \n\ \ \ \ precondition\:\n\ \ \ \ \ \ \ c.get(0).equals(c.get(c.size()-1))\ \=\=\ true\n\ \ \ \ \ \ \ myVertices.contains(c.get(k))\ \=\=\ true\ for\ all\ k,\ 0\ <\=\ k\ <\ c.size()\n\ \ \ \ \ \ \ c.get(k).length()\ \=\=\ 1\ for\ all\ k,\ 0\ <\=\ k\ <\ c.size()\n\ \ \ \ postconditino\:\n\ \ \ \ \ \ \ myVertices\ &\ myEdges\ are\ not\ altered\n\n\ \ \ \ returns\ true\ iff\ there\ is\ a\ cycle\ from\ c.get(0)\ to\ c.get(c.size()-1)\ in\ which,\ except\ for\ beginning\ and\ ending\ vertices,\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ there\ are\ no\ repeated\ vertices.\n\ \ \ \ \ \ \ \ \ \ \ \ yes,\ you\ need\ to\ make\ sure\ myEdges\ contains\ the\ Edges\ required\ in\ c\n
+comment26.params=v
+comment26.target=java.lang.String\ getSimpleCycle(java.lang.String)
+comment26.text=\n\ \ \ precondition\:\n\ \ \ \ \ \ \ v.length()\ \=\=\ 1;\n\ \ \ \ \ \ \ myVertices.contains(v)\ \=\=\ true\n\n\ \ \ See\ page\ 391\ for\ defintion\ of\ a\ cycle\n\ \ \ \ \ \ A\ cycle\ (or\ circuit)\ is\ a\ path\ of\ nonzero\ length\ from\ v\ to\ v\ with\ no\ repeated\ edges\n\ \ \ \ \ \ loops\ can\ form\ a\ simple\ cycle,\ that\ is,\ the\ path\ "vv"\ is\ consider\ a\ simple\ cycle\ in\ this\ method\n\n\ \ \ return\n\ \ \ \ \ \ \ A\ String\ containing\ a\ list\ vertices\ which\ form\ a\ simple\ cycle\ from\ v\ to\ v\n\ \ \ \ \ \ \ \ \ \ The\ first\ and\ last\ vertice\ of\ the\ String\ should\ be\ v,\ e.g.\:\ \ "v.....v"\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ no\ other\ vertice\ should\ be\ repeated\ in\ the\ String\n\ \ \ \ \ \ \ null\ if\ a\ simple\ cycle\ does\ not\ exist.\n
+comment3.params=edges
+comment3.target=void\ addEdges(java.util.Set)
+comment3.text=\n\ precondition\n\ \ \ for\ every\ edge\ in\ edges,\n\ \ \ \ \ myVertices.contains(edge.getA())\ \=\=\ true\n\ \ \ \ \ &&\ myVertices.contains(edge.getB())\ \=\=\ true\n\ \ \ myEdges.contains(edge)\ \=\=\ false\n\ postcondtion\:\ \ every\ edge\ in\ edges\ is\ added\ to\ myEdges\n
+comment4.params=
+comment4.target=java.util.Set\ getVertices()
+comment5.params=
+comment5.target=java.util.Set\ getEdges()
+comment6.params=s
+comment6.target=void\ addVertex(java.lang.String)
+comment6.text=\n\ \ precondition\n\ \ \ \ myVertices.contains(s)\ \=\=\ false\n\ \ \ \ \n\ \ postcondition\n\ \ \ \ myVertices.contains(s)\ \=\=\ true\n
+comment7.params=s\ t
+comment7.target=boolean\ isAdjacent(java.lang.String,\ java.lang.String)
+comment7.text=\n\ \ \ \ \ According\ to\ http\://webwhompers.com/graph-theory.html\n\ \ \ \ \ \n\ \ \ \ \ Two\ vertices\ are\ called\ adjacent\ if\ they\ share\ a\ common\ edge,\ \ \ (direction\ of\ edge\ not\ important)\n\ \ \ \ \ \n\ \ \ \ \ precondition\ myVertices.contains(s)\ \=\=\ true\ \ &&\ myVertices.contains(t)\n\ \ \ \ \ \n\ \ \ \ \ returns\ true\ iff\ vertex\ s\ and\ vertex\ t\ share\ a\ common\ edge\ (in\ either\ direction)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ yes,\ you\ can\ be\ adjacent\ to\ your\ self\n
+comment8.params=s
+comment8.target=java.util.Set\ getNeighbors(java.lang.String)
+comment8.text=\n\ \ \ \ \ According\ to\ http\://webwhompers.com/graph-theory.html\n\ \ \ \ \ \n\ \ \ \ \ The\ neighborhood\ of\ a\ vertex\ v\ in\ a\ graph\ G\ is\ the\ set\ of\ vertices\ adjacent\ to\ v.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Use\ the\ definition\ of\ adjacent\ from\ isAdjacent\ above\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ i.e.\ -\ direction\ is\ NOT\ important\n\ \ \ \ \ \n\ \ \ \ \ precondition\ myVertices.contains(s)\ \=\=\ true\n\ \ \ \ \ \n\ \ \ \ \ returns\ a\ Set\ of\ all\ neighbors\ of\ s\n\ \ \ \ \ The\ neighborhood\ does\ not\ include\ itself.\n
+comment9.params=obj
+comment9.target=boolean\ equals(java.lang.Object)
+comment9.text=\n\ \ \ two\ graphs\ are\ equal\ iff\ both\ graphs\ have\ the\ same\ vertices\ and\ the\ same\ edges.\n
+numComments=27
