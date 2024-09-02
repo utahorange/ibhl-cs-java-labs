@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FunWith2DArrays
+comment0.text=\n\ The\ test\ class\ StringSimilarity.\n\n\ @author\ \ Don\ Allen\n\ @version\ 2015\ Wittry\ Contest\n
+comment1.params=size\ startRow\ startCol\ walk
+comment1.target=int[][]\ pathWalk(int,\ int,\ int,\ int[])
+comment1.text=\n\ \ 0\ \=\ up\n\ \ 1\ \=\ up\ and\ right\n\ \ 2\ \=\ right\n\ \ 3\ \=\ right\ and\ down\n\ \ 4\ \=\ down\n\ \ 5\ \=\ down\ and\ left\n\ \ 6\ \=\ left;\n\ \ 7\ \=\ up\ and\ left\n
+comment2.params=num
+comment2.target=boolean\ hasGynnProperty(int)
+comment2.text=\n\ \ \ return\ true\ if\ num\ has\ the\ Gynn\ property.\n\ \ \ \ \ \ A\ number\ has\ the\ Gynn\ property\ if\ all\ the\ digits\ of\ num\ are\ either\ 0,\ 1,\ 3,\ 4,\ 5,\ 6,\ 7\ or\ 8\n\ \ \ otherwise\ rerturn\ false\n
+comment3.params=num
+comment3.target=boolean\ hasArrayGynnProperty(int[][])
+comment3.text=\n\ \ \ return\ true\ if\ 2D\ array\ num\ has\ the\ Gynn\ property.\n\ \ \ otherwise\ rerturn\ false\n
+comment4.params=num
+comment4.target=boolean\ hasArraySuperGynnProperty(int[][])
+comment4.text=\n\ \ \ return\ true\ if\ 2D\ array\ num\ has\ the\ Super\ Gynn\ property.\n\ \ \ otherwise\ rerturn\ false\n
+numComments=5

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ForestPlayGroundRevisited
+comment1.params=tree
+comment1.target=ForestPlayGroundRevisited(int[])
+comment1.text=\n\ \ \ PreConditions\n\ \ \ \ \ \ \ \ tree\ is\ a\ valid\ represntation\ fo\ a\ binary\ tree\n\ \ \ \ \ \ \ \ tree\ \!\=\ null\n\ \ \ \ \ \ \ \ tree.size()\ >\=\ 0\n\ \ \ \ \ \ \ \ tree[tree.length\ -\ 1]\ >\ 0\n
+comment2.params=lev
+comment2.target=int[]\ getLevel(int)
+comment2.text=\n\ \ \ \ Precondition\:\ \ 0\ <\=\ lev\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ myTree\ contains\ at\ least\ one\ node\ on\ level\ lev\n
+comment3.params=
+comment3.target=int\ getLevelWithHighestAverage()
+comment3.text=\n\ \ \ \ returns\ the\ level\ number\ with\ the\ largest\ average\n
+comment4.params=
+comment4.target=int[]\ shiftLevelLeft()
+comment4.text=\n\ \ \ \ \ rotate\ each\ node\ level\ one\ to\ the\ left\n\ \ \ \ \ \n\ \ \ \ \ all\ null\ (non-positive\ values\ remain\ in\ same\ index.\n
+comment5.params=a
+comment5.target=int[]\ shifter(int[])
+comment6.params=lev
+comment6.target=int[]\ getBrokenLevel(int)
+numComments=7

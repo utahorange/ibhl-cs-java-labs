@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=KnowTheFifth
+comment0.text=\n\ @author\ \ Don\ Allen\n\ @version\ 2023\ Wittry\ Contest\n
+comment1.params=c1\ c2
+comment1.target=Card\ isSmaller(Card,\ Card)
+comment1.text=\n\ \ \ \ precondition\:\ \ \!c1.equals(c2)\n
+comment2.params=arr\ x
+comment2.target=int\ indexOf(java.lang.String[],\ java.lang.String)
+comment3.params=c1\ c2
+comment3.target=Card\ isLarger(Card,\ Card)
+comment4.params=cards
+comment4.target=Card[]\ arrangeCards(Card[])
+comment4.text=\n\ \ \ \ preCondition\:\ cards.length()\ \=\=\ 5\n\ \ \ \ \n\ \ \ \ return\ the\ proper\ arrangement\ of\ the\ four\ Cards\ which\ indicate\ the\ fifth\ card\n\ \ \ \ if\ multiple\ arrangements\ exist,\ return\ any\ of\ the\ arrangements\n
+comment5.params=cs
+comment5.target=int\ evaluateOrder(Card[])
+comment5.text=\n\ \ \ \ \ \ cs.size()\ \=\=\ 3\n
+comment6.params=cards
+comment6.target=Card\ name5thCard(Card[])
+comment6.text=\n\ \ \ \ cards.length()\ \=\=\ 4\n\ \ \ \ \n\ \ \ \ return\ the\ card\ indicate\ by\ the\ four\ cards\ in\ Cards\n
+numComments=7

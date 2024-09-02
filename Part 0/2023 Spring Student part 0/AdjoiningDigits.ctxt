@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=AdjoiningDigits
+comment0.text=\n\ @author\ \ Ryan\ Suh\n\ @version\ 2023\ Wittry\ Contest\n
+comment1.params=number\ divisors
+comment1.target=boolean\ isDivisibleBy(int,\ int[])
+comment2.params=num
+comment2.target=int\ getLCM(int[])
+comment3.params=num\ numDigits\ divisors
+comment3.target=int\ adjoinDigits(int,\ int,\ int[])
+comment3.text=\ \ \ \ \n\ \ \ \ assertEquals(155232,\ AdjoiningDigits.adjoinDigits(523,\ 3,\ new\ int[]\ {7,\ 8,\ 9}\ ));\n\ \ \ \ assertEquals(1050,\ AdjoiningDigits.adjoinDigits(50,\ 2,\ new\ int[]\ {2,\ 5}\ ));\n
+numComments=4

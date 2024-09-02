@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MatissaExponentConverter
+comment1.params=val\ m\ e
+comment1.target=java.lang.String\ toMatissaExponent(double,\ int,\ int)
+comment1.text=\r\n\ \ Convert\ the\ parameter\ val\ to\ its\ m-bit\ matissa\ and\ e-bit\ exponent\r\n\ \ with\ one\ space\ seperating\ the\ matissa\ and\ the\ exponent\r\n\ \ \r\n\ \ return\ "np"\ if\ the\ conversion\ is\ not\ possible\r\n\ \r\n\ preconditions\:\ \ -????\ >\ \ val\ \ >\ ????\r\n\ \r\n\ \ \ \ \ \ \ \ \ see\ the\ student\ tester\ for\ sample\ input/output\r\n\ \ \ \ \ \ \ \ \ \r\n\ \ \ if\ val\ \=\=\ 0,\ return\ a\ mantissa\ \=\ 000...000\ and\ exponent\ \=\ 000....0\r\n\ Author\:\ Tai-Yu\ Chen\r\n
+comment2.params=str
+comment2.target=double\ toDouble(java.lang.String)
+comment2.text=\r\n\ \ \ \ converts\ the\ mantissa-exponent\ string\ to\ its\ equivalent\ real\ number\r\n\ \ \ \ \r\n\ \ \ \ precondition\:\ str\ contains\ one\ space\ seperating\ the\ matissa\ from\ the\ exponent\ \r\nt\r\n\ \r\n\ \ \ \ \ \ \ \ \ see\ the\ student\ tester\ for\ sample\ input/output\r\n
+comment3.params=num
+comment3.target=java.lang.String\ toDecimalBinary(java.lang.String)
+numComments=4

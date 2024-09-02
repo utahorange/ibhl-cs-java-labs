@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=nConnected
+comment0.text=\n\ @author\ \ Don\ Allen\n\ @version\ 2021\ Wittry\ Contest\n
+comment1.params=str
+comment1.target=int\ getNConnected(java.lang.String)
+comment1.text=\n\ \ \ str\ \!\=\ null\n\ \ \ \n
+comment2.params=str\ k
+comment2.target=java.lang.String\ rotateKitems(java.lang.String,\ int)
+comment2.text=\n\ \ \ str\ \!\=\ null\n\ \ \ k\ >\ 0\n
+numComments=3

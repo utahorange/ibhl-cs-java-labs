@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=FunWith1DArrays
+comment0.text=\n\ class\ FunWith1DArrays\n\n\ @author\ \ Aisheek\ Ghosh,\ Taiyu\ Chen,\ Adriana\ Zhou\n\ @version\ 2016\ Wittry\ Contest\n
+comment1.params=str
+comment1.target=boolean\ hasVasco(java.lang.String)
+comment1.text=\n\ \ \ A\ string\ has\ the\ Vasco\ property\ if\n\ \ \ \ 1\ -\ The\ String\ has\ a\ length\ of\ 5\ or\ greater.\n\ \ \ \ 2\ -\ At\ least\ one\ letter\ in\ the\ String\ is\ repeated\ at\ least\ once\n\ \ \ \ \ \ \ \ \ \ \ (somewhere\ \u2013\ the\ letters\ do\ not\ need\ to\ be\ adjacent).\n
+comment2.params=str
+comment2.target=boolean\ isMorath(java.lang.String[])
+comment2.text=\n\ \ An\ array\ has\ the\ Morath\ property\ if\:\n\ \ \ 1\ -\ \ The\ array\ has\ 5\ elements\ or\ more;\n\ \ \ 2\ -\ \ No\ String\ appears\ more\ than\ once\ in\ the\ array.\n\ \ \ 3\ -\ \ 50%\ or\ more\ of\ Strings\ in\ the\ array\ have\ the\ Vasco\ property\n
+comment3.params=num
+comment3.target=boolean\ has737(int[])
+comment3.text=\n\ \ \ \ has737\ \ \ -\ \ an\ int\ array\ has\ the\ 737\ property\ if,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ every\ number\ which\ contains\ a\ 3\ is\ adjacent\ to\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (previous\ AND\ following)\ a\ number\ that\ contains\ 7\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ That\ is,\ if\ num[ind]\ contains\ a\ 3,\ and\ BOTH\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ num[ind-1]\ and\ num[ind+1]\ contain\ a\ 7,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ then\ num\ has\ the\ 737\ property\n\ \ \ \ The\ following\ ints\ contain\ a\ 3\:\ \ 13,\ 10003,\ 59834,\ -783,\ 3333,\ -30\n\ \ \ \ and\ the\ following\ ints\ contains\ a\ 7\:\ \ 70,\ -948765,\ 378,\ 28974,\ -7\n\n\ \ \ \ note\ \ \ \ \ -\ \ if\ num[ind]\ contains\ a\ 3,\ and\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if\ either\ ind\ -\ 1\ <\ 0\ or\ ind\ +\ 1\ >\=\ num.length,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ then\ the\ array\ does\ not\ contains\ the\ 737\ property\n\ \ \ \ note\ \ \ \ \ -\ \ if\ no\ value\ in\ num\ contains\ a\ 3,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ then\ the\ array\ num\ has\ the\ 737\ property\n\n\ \ \ \ precondition\:\ \ num.length\ >\=\ 0\ (num\ \!\=\ null)\n\n\ \ \ \ note\ -\ \ \ \ \ \ if\ num.length\ \=\=\ 0,\ return\ true\ since\ \n
+comment4.params=num\ d
+comment4.target=int\ removeD(int,\ int)
+comment4.text=\n\ \ \ \ remove\ all\ occurrences\ of\ the\ digit\ d,\ 0\ <\=\ d\ <\ 10\ from\ the\ int\ num.\n\ \ \ \ for\ example\:\n\ \ \ \ \ \ \ 186\ \=\=\ removeD(158556,\ 5)\n\ \ \ \ \ \ \ 2168\ \=\=\ removeD(201680,\ 0)\n\ \ \ \ \ &\ -123\ \=\=\ removeD(-123,\ 5)\n
+comment5.params=num\ d
+comment5.target=java.util.List\ largestWithOutDigitD(int[],\ int)
+comment5.text=\n\ \ \ \ returns\ a\ List\ of\ all\ the\ int(s)\ in\ the\ array\ num\ which\ are\ the\ largest\n\ \ \ \ \ \ \ \ \ \ \ \ after\ removing\ the\ digit\ d,\ 0\ <\=\ d\ <\ 10\ from\ the\ int\n\n\ \ \ \ The\ order\ of\ the\ numbers\ in\ the\ List\ is\ not\ important\n\ \ \ \ You\ may\ not\ alter\ the\ array\ num\n\ \ \ \ You\ may\ use\ your\ implementation\ of\ the\ method\ removedD\n\ \ \ \ You\ may\ assume\ num.length()\ >\ 0\n
+comment6.params=num
+comment6.target=int\ degreeOfInversion(int[])
+comment7.params=items
+comment7.target=int[]\ arrayRank(java.lang.Comparable[])
+comment7.text=\n\ \ \ \ The\ rank\ of\ an\ element\ in\ an\ array\ of\ integers\ is\ the\ number\ of\ smaller\ elements\ in\ the\ array\ plus\n\ \ \ \ the\ number\ of\ equal\ elements\ that\ appear\ to\ its\ left.\n\ \ \ \ \n\ \ \ \ For\ example,\ consider\ the\ array\ [4,\ 3,\ 9,\ 3,\ 7].\ The\ respective\ ranks\ of\ these\ elements\ are\ 2,\ 0,\ 4,\ 1,\ and\ 3;\n\ \ \ \ thus\ the\ rank\ array\ is\ the\ array\ [2,\ 0,\ 4,\ 1,\ 3].\n
+numComments=8

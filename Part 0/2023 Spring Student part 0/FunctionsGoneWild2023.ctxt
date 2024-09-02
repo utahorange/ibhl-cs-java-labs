@@ -1,0 +1,41 @@
+#BlueJ class context
+comment0.target=FunctionsGoneWild2023
+comment0.text=\n\ The\ test\ class\ FunctionsGoneWild2020.\n\n\ @author\ \ Don\ Allen\n\ @version\ 2023\ Wittry\ Programming\ contest\n
+comment1.params=n
+comment1.target=java.lang.String\ f1(int)
+comment1.text=\n\ \ \ n\ >\ 1\n
+comment10.params=s1\ s2
+comment10.target=boolean\ f7(java.lang.String,\ java.lang.String)
+comment11.params=s\ ans
+comment11.target=void\ findSubseq(java.lang.String,\ java.lang.String)
+comment12.params=phrase
+comment12.target=java.lang.String\ f8(java.lang.String)
+comment12.text=\n\ \ \ \ \ precondtion\:\ \ phrase\ will\ only\ contain\:\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Upper\ case\ letters\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (Z)ERO,\ T(W)O,\ SI(X),\ FO(U)R,\ EI(G)HT\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (O)NE,\ T(H)(R)EE,\ (S)EVEN,\ (F)IVE\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (N)INE\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ phrase.length()\ >\=\ 0\n
+comment13.params=arr\ value
+comment13.target=boolean\ arrayHas(java.lang.String[],\ java.lang.String)
+comment14.params=arr\ value
+comment14.target=java.lang.String[]\ removeValue(java.lang.String[],\ java.lang.String)
+comment15.params=str
+comment15.target=java.lang.String[]\ strToArray(java.lang.String)
+comment16.params=x\ y\ z
+comment16.target=boolean\ f9(boolean,\ boolean,\ boolean)
+comment17.params=j\ k\ m\ n
+comment17.target=boolean\ f10(boolean,\ boolean,\ boolean,\ boolean)
+comment2.params=str\ div
+comment2.target=int\ f2(java.lang.String,\ int)
+comment2.text=\n\ \ \ \ Given\ the\ String\ "d3739d0"\ and\ the\ number\ 60,\n\ \ \ \ \ \ \ \ \ \ \ return\ the\ number\ that\ replaces\ d\ so\ that\ d3739d0\ is\ divisible\ by\ 60?\n\ \ \ \ div\ \!\=\ 0\n\ \ \ \ \n\ \ \ \ str\ contains\:\n\ \ \ \ \ \ \ \ \ \ at\ least\ one\ non\ zero\ digit\n\ \ \ \ \ \ \ \ \ \ str.indexOf("-")\ <\ 0;\n\ \ \ \ \ \ \ \ \ \ str\ may\ contain\ more\ than\ one\ d\n
+comment3.params=n
+comment3.target=int\ f3(int)
+comment4.params=a\ b\ c
+comment4.target=int\ f4(int,\ int,\ int)
+comment5.params=num
+comment5.target=double\ f5(java.lang.String)
+comment6.params=num
+comment6.target=int\ getX(int)
+comment7.params=num
+comment7.target=int\ getY(int)
+comment8.params=num
+comment8.target=java.lang.String\ cleanPhoneNumber(java.lang.String)
+comment9.params=x\ y\ z
+comment9.target=double\ f6(double,\ double,\ double)
+numComments=18
