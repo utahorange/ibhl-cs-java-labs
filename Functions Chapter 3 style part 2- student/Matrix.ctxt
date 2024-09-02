@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Matrix
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Matrix\ here.\r\n\ \r\n\ need\ Matrix\ operations\r\n\ \r\n\ @author\ Don\ Allen\r\n\ @version\ March\ 2011\r\n
+comment1.params=x\ y
+comment1.target=int[][]\ product(int[][],\ int[][])
+comment1.text=\r\n\ \ \ \ Matrix\ multiplication\r\n\ \r\n\ @return\ \ \ \ \ matrix\ x\ times\ matrix\ y\ \r\n
+comment2.params=m\ k
+comment2.target=int[][]\ setDiagonal(int[][],\ int)
+comment2.text=\ \r\n\ \ \ \ Set\ teh\ diagonal\ of\ the\ Matrix\ to\ k\r\n\ \ \ \ You\ may\ assume\ m.length\ \=\=\ m[h].length,\ 0\ <\=\ h\ <\ m.length\r\n
+numComments=3

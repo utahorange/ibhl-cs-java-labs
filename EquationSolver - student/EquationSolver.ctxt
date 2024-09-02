@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=t
+comment0.target=EquationSolver(int)
+comment0.text=\ post\ condition\ \r\n\ \ \ 0\ <\=\ t\ <\=\ 99,999\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=str\ n
+comment2.target=java.lang.String\ build_a(java.lang.String,\ int)
+comment2.text=\r\n\ \ \ \ create\ term\ a\ of\ the\ equation\ a\ *\ b\ +\ c\ that\ is\ closes\ to\ target\r\n\ \ \ \ \r\n\ \ \ \ 0\ <\=\ a\ <\=\ 999\r\n
+comment3.params=str\ n
+comment3.target=java.lang.String\ build_b(java.lang.String,\ int)
+comment3.text=\r\n\ \ \ \ create\ term\ b\ of\ the\ equation\ a\ *\ b\ +\ c\ that\ is\ closes\ to\ target\r\n\ \ \ \ \r\n\ \ \ \ 0\ <\=\ b\ <\=\ 999\r\n
+comment4.params=str\ n
+comment4.target=java.lang.String\ build_c(java.lang.String,\ int)
+comment4.text=\r\n\ \ \ \ create\ term\ c\ of\ the\ equation\ a\ *\ b\ +\ c\ that\ is\ closes\ to\ target\r\n\ \ \ \ \r\n\ \ \ \ 0\ <\=\ c\ <\=\ 99999\r\n
+numComments=5

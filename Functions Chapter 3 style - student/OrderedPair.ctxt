@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=OrderedPair
+comment0.text=\r\n\r\n\ @author\ \ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x1\ y1
+comment1.target=OrderedPair(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getX()
+comment3.params=
+comment3.target=java.lang.String\ getY()
+comment4.params=obj
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\r\n\ \ \ \ If\ you\ want\ to\ compare\ two\ OrderedPair\ objects\ for\ equality,\r\n\ \ \ \ you\ need\ to\ correctly\ implement\ this\ method\r\n
+comment5.params=
+comment5.target=int\ hashCode()
+comment5.text=\r\n\ \ \ \ \ Not\ tested\r\n\ \ \ \ \ \r\n\ \ \ \ \ If\ you\ are\ going\ to\ use\ a\ HashMap,\ You\ MUST\ (I\ think)\ reimplement\ this\ method\r\n\ \ \ \ \ \r\n\ \ \ \ \ OK,\ the\ class\ of\ 2020\ says\ you\ must\!\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ \ \ \ \ Not\ tested\r\n\ \ \ \ \ \r\n\ \ \ \ \ However,\ I\ did\ used\ this\ method\ in\ getRelationString\r\n\ \ \ \ \ AND\ it\ was\ a\ helpful\ tool\ when\ used\ in\ conjunction\ with\ the\ getRelationString\r\n\ \ \ \ \ method\ which\ GREATLY\ simplified\ and\ shorten\ the\ code\ in\ some\ methods\r\n
+numComments=7

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=SetWithArrayTestUpdate
+comment0.text=\r\n\ The\ test\ class\ TearCalculatorTest.\r\n\r\n\ @author\ \ Coglianese\r\n\ @version\ 8/16/22\r\n
+comment1.params=
+comment1.target=SetWithArrayTestUpdate()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ TearCalculatorTest\r\n
+comment2.params=
+comment2.target=void\ testSetWithArrayUnion00()
+comment3.params=
+comment3.target=void\ testSetWithArrayIntersection00()
+comment4.params=
+comment4.target=void\ testSetWithArrayDifference00()
+comment5.params=
+comment5.target=void\ testSetWithArrayIsSubSetOf00()
+comment6.params=
+comment6.target=void\ testSetWithArrayIsEqualTo00()
+comment7.params=
+comment7.target=void\ testSetWithArraySymmetricDifference00()
+comment8.params=
+comment8.target=void\ testSetWithArrayisPartition00()
+numComments=9

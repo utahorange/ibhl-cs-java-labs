@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=DorasGreatMapAdventurePart2
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ DorasGreatMapAdventurePart2\ here.\r\n\ \r\n\ @author\ Mr.\ Allen\r\n\ @version\ \r\n
+comment1.params=type
+comment1.target=DorasGreatMapAdventurePart2(java.lang.String)
+comment1.text=\r\n\ \ \ If\ client\ creates\ a\ "hash"\ DorasGreatMapAdventure,\ key\ will\ have\ a\ reasonable\ hashCode,\ the\ associated\ set\ contains\ Objects\r\n\ \ \ If\ client\ creates\ a\ "tree"\ DorasGreatMapAdventure,\ key\ will\ implement\ Comparable\ interface\ as\ required\ by\ the\ TreeMap()\ class,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ associated\ set\ contains\ Objects\r\n
+comment2.params=boots
+comment2.target=DorasGreatMapAdventurePart2\ mapUnion(DorasGreatMapAdventure)
+comment2.text=\ \ returns\ a\ DorasGreatMapAdventure\ implemented\ with\ a\ HashMap\r\n\ \ \ \ \ \ This\ allows\ me\ to\ take\ the\ union\ of\ DorasGreatMapAdventure\ implemented\ with\ TreeMaps\ and\ HashMap\r\n\r\n\ \ \ \ \ \ the\ returned\ Map\ will\ contains\ the\ keys\ that\ are\ in\ either\ Map.\r\n\ \ \ \ \ \ For\ keys\ that\ are\ in\ both\ Maps,\ the\ associated\ Sets\ will\ be\ a\ union\ of\ the\ two\ sets\r\n
+comment3.params=backpack
+comment3.target=DorasGreatMapAdventurePart2\ mapIntersection(DorasGreatMapAdventure)
+comment3.text=\ \ returns\ a\ DorasGreatMapAdventure\ implemented\ with\ a\ HashMap\r\n\ \ \ \ \ \ This\ allows\ me\ to\ take\ the\ intersection\ of\ DorasGreatMapAdventure\ implemented\ with\ TreeMaps\ and\ HashMap\r\n\r\n\ \ \ \ \ \ the\ returned\ Map\ will\ contains\ the\ keys\ that\ are\ only\ in\ both\ Maps.\r\n\ \ \ \ \ \ the\ associated\ Sets\ will\ be\ an\ intersection\ of\ the\ two\ sets\r\n
+comment4.params=swiper
+comment4.target=DorasGreatMapAdventurePart2\ mapDifference(DorasGreatMapAdventure)
+comment4.text=\ \ returns\ a\ DorasGreatMapAdventure\ implemented\ with\ a\ HashMap\r\n\ \ \ \ \ \ This\ takes\ the\ difference\ of\ DorasGreatMapAdventure\ implemented\ with\ TreeMaps\ and\ HashMap\r\n\r\n\ \ \ \ \ \ the\ returned\ Map\ will\ contain\ the\ keys\ that\ are\ in\ this.iAmTheMap.\r\n\ \ \ \ \ \ for\ each\ key\ in\ this.iAmTheMap,\r\n\ \ \ \ \ \ if\ that\ key\ is\ in\ swiper,\r\n\ \ \ \ \ \ \ \ \ the\ associated\ set\ is\ the\ set\ difference\ of\ this.iAmTheMap\ -\ swiper.iAmTheMap\r\n\ \ \ \ \ \ \ \ \ if\ the\ associated\ Set\ is\ Empty,\ remove\ the\ Key\ -\ Set\ pair\ from\ the\ Map\r\n\ \ \ \ \ \ otherswise\ (key\ is\ NOT\ in\ swiper)\r\n\ \ \ \ \ \ \ \ \ teh\ associated\ set\ is\ the\ set\ associated\ with\ key\ in\ this.iAmTheMap\r\n
+comment5.params=backpack
+comment5.target=boolean\ isSubmapOf(DorasGreatMapAdventure)
+comment5.text=\r\n\ \ \ \ \ \ returns\ true\ iff\r\n\ \ \ \ \ \ \ \ \ for\ each\ key\ in\ this.iAmTheMap,\ backpack.iAmTheMap\ contains\ the\ same\ key\r\n\ \ \ \ \ \ \ \ \ this.iAmTheMap.get(key)\ is\ a\ subset\ of\ backpack.iAmTheMap.get(k)\r\n\ \ \ \ \ \ note\:\ \ this\ allows\ both\ Maps\ to\ be\ equal\r\n\ \ \ \ \ \ otherwise\ return\ false\r\n
+comment6.params=s
+comment6.target=boolean\ isProperSubmapOf(DorasGreatMapAdventure)
+comment6.text=\r\n\ \ \ \ \ \ returns\ true\ iff\r\n\ \ \ \ \ \ \ \ \ for\ each\ key\ in\ this.iAmTheMap,\ backpack.iAmTheMap\ contains\ the\ same\ key\r\n\ \ \ \ \ \ \ \ \ this.iAmTheMap.get(key)\ is\ a\ subset\ of\ backpack.iAmTheMap.get(key)\ for\ every\ key\ in\ iAmTheMap.keySet()\ with\ either\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ 1)\ this.iAmTheMap.get(key)\ is\ a\ proper\ subset\ of\ backpack.iAmTheMap.get(key)\ for\ atleast\ one\ key\ in\ iAmTheMap.keySet()\r\n\ \ \ \ \ \ \ \ \ or\ 2)\ backpack.iAmTheMap\ contains\ at\ least\ one\ key\ that\ this.iAmTheMap\ does\ not\r\n\ \ \ \ \ \ note\:\ \ this\ implies\ that\ equal\ sets\ are\ NOT\ properSubsets.\r\n\ \ \ \ \ \ otherwise\ return\ false\r\n
+comment7.params=
+comment7.target=void\ clear()
+comment7.text=\r\n\ \ \ \ \ \ Removes\ all\ mappings\ from\ this\ map\r\n\ \ postCondition\:\ \ keySet().size()\ \=\=\ 0\r\n
+comment8.params=isa
+comment8.target=void\ clearKey(java.lang.Object)
+comment8.text=\r\n\ \ \ \ \ \ the\ set\ associated\ with\ key\ isa\ is\ emptied\r\n\ \ postCondition\:\ \ getMap().get(isa).size()\ \=\=\ 0\r\n\ \ \ \ \ \ if\ isa\ is\ not\ a\ key\r\n\ \ \ \ \ \ \ \ \ \ -\ do\ not\ throw\ an\ exception,\ that\ is\ exit\ the\ method\ gracefully\r\n
+comment9.params=
+comment9.target=int\ numMappings()
+comment9.text=\r\n\ \ \ \ \ \ returns\ the\ number\ key-value\ mapping\ in\ iAmTheMap\r\n
+numComments=10

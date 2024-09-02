@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FunctionsChapter3StylePart3
+comment0.text=\r\n\ \ \ \ For\ this\ project,\ you\ may\ assume\ all\ int[][]\ have\ square\ dimensions\r\n\ \ \ \ \r\n\ \ \ \ Remember\ to\ not\ change\ the\ parameter\!\!\!\!\!\!\!\!\!\r\n
+comment1.params=m
+comment1.target=int[][]\ makeItReflexive(int[][])
+comment1.text=\r\n\ \ \ \ add\ the\ fewest\ 1s\ to\ copy\ of\ matrix\ m\ so\ that\ the\ copy\ is\ reflexive\ \r\n\ \ \ \ \r\n\ \ \ \ Remember\ to\ not\ change\ the\ parameter\!\!\!\!\!\!\!\!\!\r\n
+comment2.params=m
+comment2.target=int[][]\ makeItSymmetric(int[][])
+comment2.text=\r\n\ \ \ \ add\ the\ fewest\ 1s\ to\ copy\ of\ matrix\ m\ so\ that\ the\ copy\ is\ symmetric\ \r\n\ \ \ \ \r\n\ \ \ \ Remember\ to\ not\ change\ the\ parameter\!\!\!\!\!\!\!\!\!\r\n
+comment3.params=m
+comment3.target=int[][]\ makeItTransitive(int[][])
+comment3.text=\r\n\ \ \ \ add\ the\ fewest\ 1s\ to\ copy\ of\ matrix\ m\ so\ that\ the\ copy\ is\ transitive\ \r\n\ \ \ \ \r\n\ \ \ \ Remember\ to\ not\ change\ the\ parameter\!\!\!\!\!\!\!\!\!\r\n
+comment4.params=m
+comment4.target=int[][]\ makeItAWarrior(int[][])
+comment4.text=\r\n\ \ \ \ An\ int[][]\ is\ said\ to\ have\ the\ warrior\ property\ if\ the\ smallest\ value\ in\ each\ row\ is\ 10\ or\ greater\r\n\ \ \ \ \r\n\ \ \ \ return\ a\ copy\ of\ m\ (do\ not\ change\ m)\ with\ each\ value\ less\ than\ 10\ incresed\ by\ 5\ until\ it\ is\ 10\ or\ greater\r\n\ \ \ \ \r\n\ \ \ \ You\ may\ NOT\ assume\ m.length\ \=\=\ m[0].length.\r\n\ \ \ \ \r\n\ \ \ \ Remember\ to\ not\ change\ the\ parameter\!\!\!\!\!\!\!\!\!\r\n
+numComments=5

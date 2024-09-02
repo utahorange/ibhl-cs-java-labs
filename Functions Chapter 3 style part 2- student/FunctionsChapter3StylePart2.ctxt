@@ -1,0 +1,59 @@
+#BlueJ class context
+comment0.target=FunctionsChapter3StylePart2
+comment0.text=\r\n\r\n\ @author\ \ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=r
+comment1.target=FunctionsChapter3StylePart2(int[][])
+comment1.text=add\ your\ own\ instance\ variables
+comment10.params=
+comment10.target=boolean\ isBijective()
+comment10.text=\r\n\ \ \ \ \ returns\ true\ if\ the\ matrix\ is\ a\ function\ and\ the\ function\ is\ bijective\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ that\ is\ both\ one\ to\ one\ and\ onto\r\n\ \ \ \ \ returns\ false\ otherwise\r\n
+comment11.params=comp
+comment11.target=FunctionsChapter3StylePart2\ getComposition(int[][])
+comment11.text=\r\n\ \ \ precondition\:\ \ comp\ is\ a\ function.\r\n\ \ \ \r\n\ \ \ returns\ a\ new\ FunctionsChapter3StylePart2\ Object.\r\n\ \ \ The\ domain\ of\ the\ new\ Object\ is\ this.domain\r\n\ \ \ \r\n\ \ \ The\ coDomain\ of\ the\ new\ Object\ is\ comp.coDomain\r\n\ \ \ \r\n\ \ \ The\ new\ function\ is\ the\ composition\:\ relation\ o\ b\ \=\ b\ (\ relation\ )\r\n\ \ \ \r\n\ \ \ See\ the\ tester\ for\ more\ information\r\n
+comment12.params=
+comment12.target=int[][]\ getInverse()
+comment12.text=\r\n\ \ \ precondition\:\ \ relation\ is\ a\ function.\r\n\ \ \ rel\ does\ not\ have\ to\ be\ both\ 1-1\ and\ onto\r\n\ \ \ the\ inverse\ does\ not\ need\ to\ be\ a\ function\r\n
+comment13.params=
+comment13.target=boolean\ isReflexive()
+comment13.text=\r\n\ A\ relation\ is\ reflexive\ if\ (x,\ x)\ in\ R\ for\ every\ x\ in\ X\r\n\ \r\n\ \ \ \ \ \ \ returns\ true\ if\ the\ current\ relation\ is\ reflexive\r\n\ \ \ \ \ \ \ returns\ false\ otherwise\r\n\ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ You\ should\ not\ assume\ the\ matrix\ is\ a\ square\ matrix.\r\n\ \ \ \ \ \ \ That\ is,\ do\ not\ assume\ getNumRows()\ \=\=\ getNumCols()\r\n\ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ Or\ should\ I\ say,\ if\ getNumRows()\ \!\=\ getNumCols(),\ return\ false\r\n
+comment14.params=
+comment14.target=boolean\ isSymmetric()
+comment14.text=\r\n\ \ \ \ \ \ \ A\ relation\ is\ symmetric\ if\r\n\ \ \ \ \ \ \ for\ all\ x,\ y\ in\ X,\ if\ (x,y)\ in\ R,\ then\ (y,x)\ in\ R\r\n\ \r\n\ \ \ \ \ \ \ returns\ true\ if\ the\ current\ relation\ is\ symmetric\r\n\ \ \ \ \ \ \ returns\ false\ otherwise\r\n
+comment15.params=
+comment15.target=boolean\ isAntiSymmetric()
+comment15.text=\r\n\ \ \ \ \ \ \ A\ relation\ is\ Antisymmetric\ if\r\n\ \ \ \ \ \ \ for\ all\ x,\ y\ in\ X,\ if\ (x,y)\ in\ R,\ and\ (y,x)\ in\ R,\ then\ x\ \=\ y\r\n\ \r\n\ \ \ \ returns\ true\ if\ the\ current\ relation\ is\ Antisymmetric\r\n\ \ \ \ returns\ false\ otherwise\r\n
+comment16.params=
+comment16.target=boolean\ isTransitive()
+comment16.text=\r\n\ \ \ \ \ \ \ A\ relation\ is\ transitive\:\r\n\ \ \ \ \ \ \ if\ (a,b)\ and\ (b,c)\ then\ (a,c)\r\n\ \r\n\ \ \ \ \ \ \ returns\ true\ if\ the\ current\ relation\ is\ transitive\r\n\ \ \ \ \ \ \ returns\ false\ otherwise\r\n
+comment17.params=
+comment17.target=boolean\ isEquivalenceRelation()
+comment17.text=\r\n\ \ \ \ returns\ true\ is\ the\ relation\ is\ an\ Equivalence\ Relation\r\n\ \ \ \ returns\ false\ otherwise\r\n
+comment18.params=
+comment18.target=boolean\ isPartiallyOrder()
+comment18.text=\ \r\n\ \ \ \ returns\ true\ is\ the\ relation\ is\ an\ Partially\ Order\r\n\ \ \ \ returns\ false\ otherwise\r\n
+comment19.params=
+comment19.target=java.lang.String\ toString()
+comment19.text=\ \r\n\ \ \ \ \ look\ at\ the\ tester\r\n\r\n\ \ \ \ returns\ [[a,\ c,\ ....d],\ [...],\ ...[]]\r\n
+comment2.params=
+comment2.target=int\ getNumberRows()
+comment3.params=
+comment3.target=int\ getNumberCols()
+comment4.params=r
+comment4.target=void\ setRelation(int[][])
+comment4.text=\r\n\ \ \ \ replaces\ the\ current\ relation\ instance\ variable\ with\ r\r\n\ \ \ \ \r\n\ \ \ \ YES\ -\ this\ method\ gets\ used\ in\ the\ my\ (stipulator)\ tester\r\n
+comment5.params=
+comment5.target=int[][]\ getRelation()
+comment5.text=\r\n\ \ \ \ returns\ the\ current\ relation\ instance\ variable\ \r\n
+comment6.params=
+comment6.target=int\ getSize()
+comment6.text=\r\n\ \ \ \ retruns\ the\ number\ of\ Order\ Pairs\ in\ the\ relation\r\n\ \ \ \ \ \ that\ is,\ the\ number\ of\ one's\ (1)\ in\ the\ Matrix\r\n
+comment7.params=
+comment7.target=boolean\ isFunction()
+comment7.text=\r\n\ \ \ \ f\ is\ a\ function\ if\r\n\ \ \ \ \ \ \ for\ each\ x\ in\ X,\ there\ is\ exactly\ one\ y\ in\ Y\ with\ (x,y)\ in\ f\r\n\ \ \ \ returns\ true\ if\ the\ matrix\ forms\ a\ function\r\n\ \ \ \ returns\ false\ otherwise\r\n
+comment8.params=
+comment8.target=boolean\ is1To1()
+comment8.text=\ \r\n\ \ \ \ A\ function\ f\ from\ X\ to\ Y\ is\ said\ to\ be\ one\ to\ one\ if\ \r\n\ \ \ \ for\ each\ y\ in\ Y,\ there\ is\ at\ most\ one\ x\ in\ X\ with\ f(x)\ \=\ y\r\n\r\n\ \ \ \ returns\ true\ if\ the\ matrix\ is\ a\ function\ and\ the\ function\ is\ one\ to\ one\r\n\ \ \ \ returns\ false\ otherwise\r\n
+comment9.params=
+comment9.target=boolean\ isOnTo()
+comment9.text=\r\n\ \ \ \ A\ function\ from\ X\ to\ Y\ is\ said\ to\ be\ onto\ if\r\n\ \ \ \ the\ range\ of\ f\ \=\=\ Y\r\n\r\n\ \ \ \ returns\ true\ if\ the\ matrix\ is\ a\ function\ and\ the\ function\ is\ onto\r\n\ \ \ \ returns\ false\ otherwise\r\n
+numComments=20

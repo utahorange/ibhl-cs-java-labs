@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testDataCollection()
+comment1.params=
+comment1.target=void\ testEquationSolver01()
+comment2.params=str\ prev\ n
+comment2.target=boolean\ checkSamePlace(java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=3
